@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Julian Nuñez | Full Stack Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0f172a',
+            accent: '#ff7300',
+            secondary: '#314158'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-primary text-white font-sans">
+
+<!-- ================= HERO ================= -->
+<section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
+
+  <!-- TEXT -->
+  <div>
+    <p class="text-accent text-lg mb-3">Hola 👋</p>
+    <h1 class="text-5xl font-bold leading-tight">
+      Soy <span class="text-accent">Julian Nuñez</span><br />
+      Full Stack Developer
+    </h1>
+
+    <p class="mt-6 text-gray-300 max-w-xl">
+      Desarrollo aplicaciones modernas, escalables y seguras usando tecnologías
+      backend y frontend de alto nivel.
+    </p>
+
+    <div class="mt-8 flex gap-4 flex-wrap">
+      <!-- <a href="#contact"
+        class="bg-accent px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition">
+        ¿Tenés un proyecto?
+      </a> -->
+
+      <a href="./Julian-Nunez-CV.pdf"
+   download
+   class="border border-accent px-6 py-3 rounded-lg font-semibold hover:bg-accent hover:text-white transition">
+   Mi CV
+</a>
+
+    </div>
+
+    <!-- SOCIAL LINKS -->
+    <div class="mt-8 flex gap-5 text-gray-300">
+      <a href="https://linkedin.com/in/njulian18/" target="_blank"
+         class="hover:text-accent transition">
+        <i data-lucide="linkedin"></i>
+      </a>
+
+      <a href="https://wa.me/2615757812" target="_blank"
+         class="hover:text-accent transition">
+        <i data-lucide="message-circle"></i>
+      </a>
+
+      <a href="mailto:njulian982@gmail.com"
+         class="hover:text-accent transition">
+        <i data-lucide="mail"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- IMAGE -->
+  <div class="flex justify-center relative">
+    <div class="absolute w-72 h-72 bg-accent rounded-full blur-3xl opacity-20"></div>
+
+    <img src="./FotoPerfil.jpg"
+         alt="Julian Nuñez"
+         class="w-64 h-64 object-cover rounded-full border-4 border-accent shadow-2xl relative z-10">
+  </div>
+</section>
+
+<!-- ================= STACK ================= -->
+<section class="border-t border-gray-700 py-10">
+  <div class="max-w-7xl mx-auto px-6 flex flex-wrap gap-6 justify-center text-gray-400">
+    <span>PHP</span>
+    <span>Laravel</span>
+    <span>JavaScript</span>
+    <span>Next.js</span>
+    <span>Flutter</span>
+    <span>MariaDB</span>
+    <span>PostgreSQL</span>
+    <span>GraphQL</span>
+    <span>Docker</span>
+    <span>Git</span>
+    <span>AWS</span>
+    <span>Linux</span>
+    
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-16">
+
+  <!-- SERVICES -->
+  <div class="space-y-8">
+    <div class="flex gap-4">
+      <div class="text-accent text-xl">🖥️</div>
+      <div>
+        <h3 class="font-semibold text-lg">Backend Development</h3>
+        <p class="text-gray-400">
+          APIs REST & GraphQL con Laravel, autenticación, seguridad y escalabilidad.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex gap-4">
+      <div class="text-accent text-xl">⚛️</div>
+      <div>
+        <h3 class="font-semibold text-lg">Frontend Development</h3>
+        <p class="text-gray-400">
+          Interfaces modernas con Next.js, UX optimizada y diseño responsive.
+        </p>
+      </div>
+    </div>
+
+    <div class="flex gap-4">
+      <div class="text-accent text-xl">📱</div>
+      <div>
+        <h3 class="font-semibold text-lg">Mobile Apps</h3>
+        <p class="text-gray-400">
+          Apps Android/iOS con Flutter integradas al mismo backend.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div>
+    <h2 class="text-4xl font-bold mb-6">Sobre mí</h2>
+
+    <p class="text-gray-300">
+      Soy desarrollador Full Stack con enfoque en backend robusto y frontend moderno.
+      Trabajo con arquitecturas limpias, APIs seguras y experiencias de usuario claras.
+    </p>
+    <hr class="my-4">
+    <ul>
+        <li>Cel : 2615757812</li>
+        <li>Email : njulian982@gmail.com</li>
+        <li></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="border-t border-gray-700 py-6 text-center text-gray-500">
+  © 2025 Julian Nuñez — Full Stack Developer
+</footer>
+
+<script>
+  lucide.createIcons();
+</script>
+
+</body>
+</html>
